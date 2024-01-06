@@ -18,3 +18,13 @@ The purpose of this website is to promote the business to London residents as we
 * As a visitor to London, I want to be able to find information about the locations and opening times easily using my mobile phone so that I can find the business while on the move.
 * As a local food-lover, I want to be able to find information about the product and the ingredients used so that I can understand more about the quality of the product.
 * As a regular customer, I want to be able to buy several tortillas so that I can serve them in my family event.
+
+### Wireframes
+
+[Balsamiq](https://balsamiq.com/) User Interface wireframing tool was used to design the structure of the website.
+
+|  Page    |                         Mobile                                 |                         Desktop                                  |
+|  ---     |                         ---                                    |                         ---                                      |
+|  Index   |[Mobile Index wireframe](assets/wireframes/mobile-index.png)    |[Desktop Index wireframe](assets/wireframes/desktop-index.png)    |
+|  Find Us |[Mobile Find Us wireframe](assets/wireframes/mobile-find-us.png)|[Desktop Find Us wireframe](assets/wireframes/desktop-find-us.png)|
+|  Order   |[Mobile Order wireframe](assets/wireframes/mobile-order.png)    |[Desktop Order wireframe](assets/wireframes/desktop-order.png)    |
