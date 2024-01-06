@@ -25,6 +25,22 @@ h2 {
     font-family: 'Sanchez', cursive;
 }
 
+/* Header */
+#navbar {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+#navbar > li {
+    list-style-type: none;
+    align-self: flex-end;
+    
+}
+#navbar a {
+    text-decoration: none;
+}
+
+/* Main Content */
 #hero {
     background: url("../images/hero-optimised.jpg") center center/cover;
     width: 100%;
