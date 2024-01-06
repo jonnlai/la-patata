@@ -23,8 +23,8 @@ The purpose of this website is to promote the business to London residents as we
 
 [Balsamiq](https://balsamiq.com/) User Interface wireframing tool was used to design the structure of the website.
 
-|  Page    |                         Mobile                                 |                         Desktop                                  |
-|  ---     |                         ---                                    |                         ---                                      |
-|  Index   |[Mobile Index wireframe](assets/wireframes/mobile-index.png)    |[Desktop Index wireframe](assets/wireframes/desktop-index.png)    |
-|  Find Us |[Mobile Find Us wireframe](assets/wireframes/mobile-find-us.png)|[Desktop Find Us wireframe](assets/wireframes/desktop-find-us.png)|
-|  Order   |[Mobile Order wireframe](assets/wireframes/mobile-order.png)    |[Desktop Order wireframe](assets/wireframes/desktop-order.png)    |
+|  Page    |                         Mobile                                  |                         Desktop                                   |
+|  ---     |                         ---                                     |                         ---                                       |
+|  Index   |![Mobile Index wireframe](assets/wireframes/mobile-index.png)    |![Desktop Index wireframe](assets/wireframes/desktop-index.png)    |
+|  Find Us |![Mobile Find Us wireframe](assets/wireframes/mobile-find-us.png)|![Desktop Find Us wireframe](assets/wireframes/desktop-find-us.png)|
+|  Order   |![Mobile Order wireframe](assets/wireframes/mobile-order.png)    |![Desktop Order wireframe](assets/wireframes/desktop-order.png)    |
