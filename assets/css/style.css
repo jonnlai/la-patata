@@ -36,6 +36,11 @@ h1 {
     padding: 1rem;
 }
 
+header > img {
+    height: 10vw;
+    margin: auto 0 auto 1rem;
+}
+
 /* Navbar */
 nav {
     position: absolute;
