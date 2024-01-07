@@ -32,6 +32,10 @@ header {
     position: relative;
 }
 
+h1 {
+    padding: 1rem;
+}
+
 /* Navbar */
 nav {
     position: absolute;
@@ -51,12 +55,15 @@ nav {
 
 #burger-icon {
     align-self: flex-end;
+    padding: 1rem;
+    font-size: 200%;
 }
 
 #navbar {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    padding: 1rem;
 }
 #navbar > li {
     list-style-type: none;
