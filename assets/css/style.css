@@ -26,6 +26,33 @@ h2 {
 }
 
 /* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Navbar */
+nav {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#burger-icon {
+    align-self: flex-end;
+}
+
 #navbar {
     display: flex;
     flex-direction: column;
@@ -34,11 +61,13 @@ h2 {
 #navbar > li {
     list-style-type: none;
     align-self: flex-end;
-    
+    font-weight: bold;
 }
+
 #navbar a {
     text-decoration: none;
 }
+
 
 /* Main Content */
 #hero {
