@@ -98,7 +98,7 @@ footer {
 }
 
 .contact-icons {
-    font-size: 150%;
+    font-size: 200%;
 }
 
 .contact-icons > a {
@@ -109,6 +109,28 @@ footer {
 
 .copyright {
     margin-right: 13px;
+}
+
+/* Make the page responsive when using a tablet >= 768px */
+@media screen and (min-width: 768px) {
+    /* Footer */
+    /* Center the icons and place copyright to the right-side */
+    footer {
+        justify-content: center;
+        position: relative;
+    }
+
+    .contact-icons > a {
+        margin-left: 48px;
+    }
+
+    .copyright {
+        position: absolute;
+        right: 0;
+        margin-right: 48px;
+
+    }
+
 }
 
 /* Make the page responsive when using a laptop >= 992px */
