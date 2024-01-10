@@ -89,9 +89,6 @@ main {
     height: 60vh;
 }
 
-
-
-
 /* Make the page responsive when using a laptop >= 992px */
 
 @media screen and (min-width: 992px) {
