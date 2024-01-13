@@ -176,6 +176,7 @@ footer {
 
 /* Make the page responsive when using a tablet >= 768px */
 @media screen and (min-width: 768px) {
+
     /* Index page main content */
     .information-section {
         padding: 5px 50px;
@@ -203,6 +204,7 @@ footer {
 
 /* Make the page responsive when using a laptop >= 992px */
 @media screen and (min-width: 992px) {
+
     /* Header */
     header {
         justify-content: center;
@@ -234,28 +236,28 @@ footer {
     }
 
     /* Index page main content */
-    #menu {
-        width: 50%;
-        margin: 50px;
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .information-section {
+        margin: 45px;
+    }
+
+    #menu,
+    #about {
+        width: 40%;
     }
 
     .tortilla-type {
-        width: 20vw;
-    }
-
-    #about {
-        width: 40%;
-        margin: 50px;
+        width: 200px;
     }
 
     #tortilla-slice {
         width: 400px;
-        height: 300px;
-        margin: 50px;
-    }
-
-    #how-to-enjoy {
-        margin: 50px;
+        height: 250px;
     }
 
 }
