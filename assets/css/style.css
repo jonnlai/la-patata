@@ -134,11 +134,16 @@ th {
 }
 
 /* Tortilla slice photo */
-#tortilla-slice {
+.tortilla-slice {
     width: 100%;
     height: 50vw;
 }
 
+.hidden {
+    display: none;
+}
+
+/* How to enjoy section */
 #how-to-enjoy>ul {
     display: flex;
     flex-direction: column;
@@ -255,9 +260,20 @@ footer {
         width: 200px;
     }
 
-    #tortilla-slice {
-        width: 400px;
-        height: 250px;
+    .tortilla-slice {
+        width: 300px;
+        height: 180px;
+    }
+
+    /* Display hidden images when using a large screen */
+    .hidden {
+        display: inline;
+    }
+
+    #tortilla-images {
+        display: flex;
+        flex: 100%;
+        justify-content: space-evenly;
     }
 
 }
