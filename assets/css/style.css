@@ -203,6 +203,7 @@ footer {
 
 /* Make the page responsive when using a laptop >= 992px */
 @media screen and (min-width: 992px) {
+    /* Header */
     header {
         justify-content: center;
     }
@@ -231,4 +232,30 @@ footer {
     #burger-icon {
         display: none;
     }
+
+    /* Index page main content */
+    #menu {
+        width: 50%;
+        margin: 50px;
+    }
+
+    .tortilla-type {
+        width: 20vw;
+    }
+
+    #about {
+        width: 40%;
+        margin: 50px;
+    }
+
+    #tortilla-slice {
+        width: 400px;
+        height: 300px;
+        margin: 50px;
+    }
+
+    #how-to-enjoy {
+        margin: 50px;
+    }
+
 }
