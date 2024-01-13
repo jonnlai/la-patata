@@ -132,6 +132,11 @@ th {
     margin: 10px 35px;
 }
 
+/* About Us section */
+#about > p {
+    padding: 5px;
+}
+
 /* Footer */
 footer {
     height: 50px;
