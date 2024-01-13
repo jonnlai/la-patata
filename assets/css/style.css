@@ -126,6 +126,12 @@ th {
     margin-bottom: 5px;
 }
 
+#menu > p {
+    text-align: center;
+    font-size: 80%;
+    margin: 10px 35px;
+}
+
 /* Footer */
 footer {
     height: 50px;
