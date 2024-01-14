@@ -302,3 +302,42 @@ footer {
     }
 
 }
+
+/* Make the page responsive when using a desktop >= 1320px */
+@media screen and (min-width: 1320px) {
+    main {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #menu,
+    #about,
+    #how-to-enjoy {
+        width: 650px;
+    }
+
+    .tortilla-type {
+        width: 350px;
+    }
+    
+    /* Hide two of the images to align with the text sections */
+    .hidden {
+        display: none;
+    }
+
+    #tortilla-images {
+        flex: none;
+        order: 4;
+        width: 650px;
+
+    }
+
+    .tortilla-slice {
+        width: 600px;
+        height: 350px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+
+    }
