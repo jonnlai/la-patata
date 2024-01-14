@@ -181,6 +181,21 @@ th {
     margin-bottom: 20px;
 }
 
+/* Where to Find Us page */
+#where-to-find {
+    margin: 30px 5px;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+.map {
+    width: 80vw;
+    height: 80vw;
+    margin: 10px 5px;
+}
+
 /* Footer */
 footer {
     height: 50px;
