@@ -82,6 +82,10 @@ nav {
     color: #ddbc8d;
 }
 
+#navbar .active {
+    text-decoration: underline;
+}
+
 /* Main Content */
 main {
     background-color: #ddbc8d;
@@ -319,7 +323,7 @@ footer {
     .tortilla-type {
         width: 350px;
     }
-    
+
     /* Hide two of the images to align with the text sections */
     .hidden {
         display: none;
