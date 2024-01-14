@@ -1,6 +1,5 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Dekko&family=Sanchez&display=swap');
-
 /* Override default styles */
 * {
     margin: 0;
@@ -110,6 +109,8 @@ h2 {
     border: 2px solid #020000;
     border-radius: 5px;
     padding: 5px;
+    background: url("../images/menu-background-optimised.jpg") no-repeat center center/cover;
+    color: #fff;
 }
 
 table {
