@@ -1,5 +1,5 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Sanchez&family=Shantell+Sans:ital@0;1&display=swap');
 /* Override default styles */
 * {
     margin: 0;
@@ -111,6 +111,7 @@ h2 {
     padding: 5px;
     background: url("../images/menu-background-optimised.jpg") no-repeat center center/cover;
     color: #fff;
+    font-family: 'Shantell Sans', cursive;
 }
 
 table {
@@ -121,6 +122,7 @@ table {
 th {
     text-align: right;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .tortilla-price {
@@ -137,6 +139,7 @@ th {
 .tortilla-name {
     font-weight: bold;
     margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
 #menu-items>p {
