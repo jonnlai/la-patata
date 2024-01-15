@@ -183,8 +183,8 @@ th {
 
 /* Where to Find Us page */
 /* Location information */
-#where-to-find {
-    margin: 30px 0;
+#find-us-main {
+    padding: 30px 0;
 }
 
 #locations-section {
@@ -375,13 +375,14 @@ footer {
     }
 
     /* Find Us page */
-    #where-to-find {
+    #find-us-main {
         /* Bring the title lower to stop the header covering it */
-        margin-top: 80px;
+        padding-top: 80px;
     }
 
     #contact-us {
         height: 400px;
+        width: 600px;
         margin-bottom: 30px;
     }
 
@@ -396,14 +397,11 @@ footer {
         left: 20%;
         padding: 30px 40px;
     }
-
-
-
 }
 
 /* Make the page responsive when using a desktop >= 1320px */
 @media screen and (min-width: 1320px) {
-    main {
+    #index-main {
         justify-content: space-evenly;
         align-items: center;
     }
@@ -437,5 +435,25 @@ footer {
         padding: 20px;
     }
 
+    /* Find Us page */
+    #find-us-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #locations-section {
+        gap: 50px;
+    }
+
+    #contact-us img {
+        position: static;
+        margin-top: 50px;
+    }
+
+    #contact-details {
+        padding: 10px;
+        left: 10%;
+    }
 
     }
