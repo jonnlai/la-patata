@@ -217,6 +217,19 @@ th {
     margin: 20px 0;
 }
 
+/* Pre-order page */
+#order-info {
+    margin: 10px;
+}
+
+#order-info li {
+    list-style: inside;
+}
+
+#order-info > h4 {
+    margin: 10px 0 5px;
+}
+
 /* Footer */
 footer {
     height: 50px;
