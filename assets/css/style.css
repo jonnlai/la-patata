@@ -252,6 +252,39 @@ footer {
         padding: 0 20px 20px;
     }
 
+    /* Find us page main content */
+    #locations-section {
+        /* Place the maps side by side */
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 20px
+    }
+
+    .map {
+        width: 300px;
+        height: 300px;
+    }
+    
+    /* Remove horizontal rules from below each location information */
+    #locations-section hr {
+        display: none
+    }
+
+    #contact-us {
+        position: relative;
+    }
+
+    #contact-details {
+        position: absolute;
+        z-index: 2;
+        left: 10%;
+        top: 20%;
+        background-color:rgba(2, 0, 0, 0.7);
+        color: #ddbc8d;
+        padding: 10px;
+    }
+
     /* Footer */
     /* Center the icons and place copyright to the right-side */
     footer {
