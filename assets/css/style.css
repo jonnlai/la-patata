@@ -339,7 +339,7 @@ footer {
     }
 
     /* Index page main content */
-    main {
+    #index-main {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -373,6 +373,31 @@ footer {
         flex: 100%;
         justify-content: space-evenly;
     }
+
+    /* Find Us page */
+    #where-to-find {
+        /* Bring the title lower to stop the header covering it */
+        margin-top: 80px;
+    }
+
+    #contact-us {
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    #contact-us img {
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        left: 30%;
+    }
+
+    #contact-details {
+        left: 20%;
+        padding: 30px 40px;
+    }
+
+
 
 }
 
