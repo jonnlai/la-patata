@@ -1,76 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="La Patata. Best Spanish tortilla in London, UK. Food truck selling freshly made authentic Spanish tortillas in London's food markets." />
-    <meta name="keywords" content="food, food market, tortilla, Spanish tortilla, London, UK, England, food truck" />
+    <meta
+      name="description"
+      content="La Patata. Best Spanish tortilla in London, UK. Food truck selling freshly made authentic Spanish tortillas in London's food markets."
+    />
+    <meta
+      name="keywords"
+      content="food, food market, tortilla, Spanish tortilla, London, UK, England, food truck"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>La Patata</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <img src="assets/images/la-patata-truck-optimised.png" alt="Illustration of the La Patata food truck" />
-        <h1>La Patata</h1>
-        <!-- The idea for navigation menu toggle was taken from Code Institute's Love Running Walkthrough Project -->
-        <input type="checkbox" name="nav-toggle" id="nav-toggle" />
-        <label for="nav-toggle" id="burger-icon"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="find-us.html" class="active">Find Us</a></li>
-                <li><a href="order.html">Order</a></li>
-            </ul>
-        </nav>
+      <img
+        src="assets/images/la-patata-truck-optimised.png"
+        alt="Illustration of the La Patata food truck"
+      />
+      <h1>La Patata</h1>
+      <!-- The idea for navigation menu toggle was taken from Code Institute's Love Running Walkthrough Project -->
+      <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+      <label for="nav-toggle" id="burger-icon"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="find-us.html" class="active">Find Us</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main>
-    <section id="where-to-find">
+      <section id="where-to-find">
         <h2>Where to find us?</h2>
-        <div class="location">
+        <div id="locations-section">
+          <div class="location">
             <h3>Victoria Park</h3>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4963.366181258278!2d-0.041149956443991!3d51.53737219462841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cdf949e0d99%3A0x7e03df044150bcb6!2sVictoria%20Park%20Market!5e0!3m2!1sen!2suk!4v1705262828708!5m2!1sen!2suk"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-            <div>Victoria Park Market <br> between Bonner Gate and Gore Road <br> London E2 9JW</div>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4963.366181258278!2d-0.041149956443991!3d51.53737219462841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cdf949e0d99%3A0x7e03df044150bcb6!2sVictoria%20Park%20Market!5e0!3m2!1sen!2suk!4v1705262828708!5m2!1sen!2suk"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+            <div>
+              Victoria Park Market <br />
+              between Bonner Gate & Gore Rd <br />
+              London E2 9JW
+            </div>
+            <br />
+            <div>
+              Wednesdays 10am to 3pm <br />
+              Sundays 9am to 5pm
+            </div>
             <br>
-            <div>Wednesdays 10am to 3pm <br> Sundays 9am to 5pm </div>
-        </div>
-        <div class="location">
+            <hr>
+          </div>
+          <div class="location">
             <h3>Brick Lane</h3>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.4102971784573!2d-0.07363593147306247!3d51.51924731814137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb6422a6be5%3A0x200ac23345495cc9!2sEly&#39;s%20Yard%20Food%20Trucks!5e0!3m2!1sen!2suk!4v1705263733141!5m2!1sen!2suk"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-            <div>UK Ltd <br> 91 Brick Lane <br> London E1 6QL</div>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.4102971784573!2d-0.07363593147306247!3d51.51924731814137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb6422a6be5%3A0x200ac23345495cc9!2sEly&#39;s%20Yard%20Food%20Trucks!5e0!3m2!1sen!2suk!4v1705263733141!5m2!1sen!2suk"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+            <div>
+              Ely's Yard Food Trucks<br />
+              91 Brick Lane <br />
+              London E1 6QL
+            </div>
+            <br />
+            <div>
+              Thursdays 10am to 3pm <br />
+              Saturdays 9am to 6pm
+            </div>
             <br>
-            <div>Thursdays 10am to 3pm <br> Saturdays 9am to 6pm </div>
+            <hr>
+          </div>
         </div>
-    </section>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <span class="contact-icons">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab"><i
-                    class="fa-brands fa-square-instagram"></i></a>
-            <a href="mailto:info@lapatata.com" aria-label="Contact us via email (opens a new email)"><i
-                    class="fa-solid fa-envelope"></i></a>
-        </span>
-        <span class="copyright"><i class="fa-regular fa-copyright"></i> La Patata 2024</span>
+      <span class="contact-icons">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab"
+          ><i class="fa-brands fa-square-instagram"></i
+        ></a>
+        <a
+          href="mailto:info@lapatata.com"
+          aria-label="Contact us via email (opens a new email)"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </span>
+      <span class="copyright"
+        ><i class="fa-regular fa-copyright"></i> La Patata 2024</span
+      >
     </footer>
 
-    <script src="https://kit.fontawesome.com/e56b74d13c.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/e56b74d13c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
