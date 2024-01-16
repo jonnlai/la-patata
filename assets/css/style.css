@@ -224,9 +224,10 @@ th {
 
 #order-info li {
     list-style: outside;
+    margin-left: 30px; 
 }
 
-#order-info > h4 {
+#order-info h4 {
     margin: 10px 0 5px;
 }
 
@@ -315,6 +316,21 @@ footer {
         background-color:rgba(2, 0, 0, 0.7);
         color: #ddbc8d;
         padding: 20px;
+    }
+
+    /* Order page */
+    #order-info > h2 {
+        margin: 1rem;
+    }
+
+    #order-info > #collection,
+    #order-info > p {
+        text-align: center;
+        margin: 1rem 3rem;
+    }
+
+    #collection li {
+        list-style: inside;
     }
 
     /* Footer */
