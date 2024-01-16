@@ -441,6 +441,15 @@ footer {
         left: 10%;
         padding: 20px;
     }
+
+    /* Order page */
+    #order-info {
+        margin-top: 70px;
+    }
+
+    details[open] {
+        max-width: 800px;
+    }
 }
 
 /* Make the page responsive when using a desktop >= 1320px */
