@@ -223,11 +223,30 @@ th {
 }
 
 #order-info li {
-    list-style: inside;
+    list-style: outside;
 }
 
 #order-info > h4 {
     margin: 10px 0 5px;
+}
+
+details {
+    margin: 10px auto;
+    border: 2px solid #020000;
+    border-radius: 5px;
+    padding: 10px 10px 10px 30px;
+    max-width: 300px;
+}
+summary {
+    font-weight: bold;
+}
+
+details[open] summary {
+    padding-bottom: 10px;
+}
+
+details[open] {
+    max-width: 500px;
 }
 
 /* Footer */
