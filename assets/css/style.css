@@ -232,6 +232,7 @@ th {
     margin: 10px 0 5px;
 }
 
+/* Terms and conditions interactive widget */
 details {
     margin: 10px auto;
     border: 2px solid #020000;
@@ -255,6 +256,7 @@ details[open] {
 /* Order form */
 #order-form {
     margin: 10px;
+    max-width: 500px;
 }
 
 #order-form>fieldset {
@@ -269,8 +271,7 @@ details[open] {
     display: inline-block;
 }
 
-#order-form input,
-#order-form select {
+.form-response {
     width: 150px;
     display: inline-block;
 }
@@ -384,6 +385,11 @@ footer {
         text-align: center;
     }
 
+    /* Order form */
+    #order-form {
+        margin: 20px auto;
+    }
+
     /* Footer */
     /* Center the icons and place copyright to the right-side */
     footer {
@@ -399,9 +405,7 @@ footer {
         position: absolute;
         right: 0;
         margin-right: 48px;
-
     }
-
 }
 
 /* Make the page responsive when using a laptop >= 992px */
@@ -500,6 +504,33 @@ footer {
 
     details[open] {
         max-width: 800px;
+    }
+
+    /* Order form */
+    #order-form {
+        max-width: 700px;
+    }
+
+    #order-form > fieldset {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;     
+    }
+
+    #order-form div {
+        margin-bottom: 15px;
+    }
+
+    .form-response {
+        width: 200px;
+    }
+
+    #terms-conditions-div {
+        margin: 5px 200px 15px;
+    }
+
+    #terms-conditions-div label[for="terms-conditions"] {
+            width: 305px;
     }
 }
 
