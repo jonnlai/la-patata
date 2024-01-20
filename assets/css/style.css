@@ -156,6 +156,10 @@ th {
     padding: 5px;
 }
 
+.internal-link {
+    color: #3c4213;
+}
+
 /* Tortilla slice photo */
 .tortilla-slice {
     width: 100%;
@@ -461,6 +465,10 @@ footer {
 
     #about {
         padding: 20px;
+    }
+
+    .internal-link:hover {
+        font-weight: bold;
     }
 
     .tortilla-type {
