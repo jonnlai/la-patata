@@ -252,6 +252,50 @@ details[open] {
     max-width: 500px;
 }
 
+/* Order form */
+#order-form {
+    margin: 10px;
+}
+
+#order-form>fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 5px;
+}
+
+#order-form label {
+    width: 120px;
+    display: inline-block;
+}
+
+#order-form input,
+#order-form select {
+    width: 150px;
+    display: inline-block;
+}
+
+#terms-conditions-div {
+    margin: 15px 0;
+    display: flex;
+}
+
+#terms-conditions-div input[type="checkbox"] {
+    width: 15px;
+    margin-right: 10px;
+}
+
+#terms-conditions-div label[for="terms-conditions"] {
+    width: 240px;
+    font-size: 12px;
+}
+
+#order-form input[type="submit"] {
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+}
+
 /* Footer */
 footer {
     height: 50px;
