@@ -75,7 +75,6 @@ nav {
     list-style-type: none;
     align-self: flex-end;
     font-weight: bold;
-
 }
 
 #navbar a {
@@ -121,7 +120,6 @@ h2 {
 
 table {
     width: 100%;
-
 }
 
 th {
@@ -235,7 +233,7 @@ th {
 /* Terms and conditions interactive widget */
 details {
     margin: 10px auto;
-    border: 2px solid #020000;
+    border: 1px solid #020000;
     border-radius: 5px;
     padding: 10px 10px 10px 30px;
     max-width: 300px;
@@ -264,6 +262,11 @@ details[open] {
     flex-direction: column;
     align-items: center;
     padding: 15px 5px;
+    border: 1px solid #020000;
+}
+
+#order-form legend {
+    font-weight: bold;
 }
 
 #order-form label {
@@ -291,10 +294,13 @@ details[open] {
     font-size: 12px;
 }
 
-#order-form input[type="submit"] {
+input[type="submit"] {
     padding: 10px;
     width: 120px;
+    border: 1px solid #020000;
     border-radius: 5px;
+    background-color: #b4832b;
+    font-weight: bold;
 }
 
 /* Footer */
@@ -502,13 +508,23 @@ footer {
         margin-top: 70px;
     }
 
+    details:hover {
+        background-color: #020000;
+        color: #ddbc8d;
+    }
+
     details[open] {
         max-width: 800px;
     }
 
+    details[open]:hover {
+        background-color: inherit;
+        color: inherit;
+    }
+
     /* Order form */
     #order-form {
-        max-width: 700px;
+        max-width: 800px;
     }
 
     #order-form > fieldset {
@@ -531,6 +547,11 @@ footer {
 
     #terms-conditions-div label[for="terms-conditions"] {
             width: 305px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #020000;
+        color: #b4832b;
     }
 }
 
