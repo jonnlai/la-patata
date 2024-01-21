@@ -100,8 +100,7 @@ main {
 }
 
 .information-section {
-    margin: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 
 h2 {
@@ -109,6 +108,10 @@ h2 {
 }
 
 /* Tortilla Menu */
+#menu>h2 {
+    margin-bottom: 10px;
+}
+
 #menu-items {
     border: 2px solid #020000;
     border-radius: 5px;
@@ -337,13 +340,18 @@ footer {
 
 /* Make the page responsive when using a tablet >= 768px */
 @media screen and (min-width: 768px) {
+
     /* Index page main content */
     .information-section {
-        padding: 20px;
+        padding: 20px 60px;
+    }
+
+    #menu-items {
+        padding: 40px;
     }
 
     #about {
-        padding: 0 20px 20px;
+        padding: 0 60px 20px;
     }
 
     /* Find us page main content */
@@ -425,6 +433,7 @@ footer {
 
 /* Make the page responsive when using a laptop >= 992px */
 @media screen and (min-width: 992px) {
+
     /* Header */
     header {
         justify-content: center;
@@ -462,21 +471,40 @@ footer {
         justify-content: center;
     }
 
+    .information-section {
+        padding: 20px;
+    }
+
     #menu,
     #about {
         width: 45%;
+    }
+
+    #menu-items {
+        padding: 5px;
+    }
+
+    .tortilla-type {
+        width: 200px;
     }
 
     #about {
         padding: 20px;
     }
 
+    #about>p {
+        line-height: 25px;
+    }
+
     .internal-link:hover {
         font-weight: bold;
     }
 
-    .tortilla-type {
-        width: 200px;
+    /* Tortilla images */
+    #tortilla-images {
+        display: flex;
+        flex: 100%;
+        justify-content: space-evenly;
     }
 
     .tortilla-slice {
@@ -489,10 +517,10 @@ footer {
         display: inline;
     }
 
-    #tortilla-images {
-        display: flex;
-        flex: 100%;
-        justify-content: space-evenly;
+    /* How to enjoy section */
+    #how-to-enjoy>p {
+        margin: 5px 60px;
+        line-height: 25px;
     }
 
     /* Find Us page */
@@ -539,10 +567,10 @@ footer {
         max-width: 800px;
     }
 
-    #order-form > fieldset {
+    #order-form>fieldset {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;     
+        justify-content: space-evenly;
     }
 
     #order-form div {
@@ -558,7 +586,7 @@ footer {
     }
 
     #terms-conditions-div label[for="terms-conditions"] {
-            width: 305px;
+        width: 305px;
     }
 
     input[type="submit"]:hover {
@@ -584,7 +612,12 @@ footer {
         width: 350px;
     }
 
-    /* Hide two of the images to align with the text sections */
+    /* How to enjoy section */
+    #how-to-enjoy>p {
+        margin: 0;
+    }
+
+    /* Hide two of the images to align the main image with the text sections */
     .hidden {
         display: none;
     }
