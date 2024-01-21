@@ -325,17 +325,17 @@ footer {
 }
 
 .contact-icons {
-    font-size: 200%;
+    font-size: 150%;
 }
 
 .contact-icons>a {
     text-decoration: none;
     color: inherit;
-    margin-left: 13px;
+    margin-left: 5vw;
 }
 
 .copyright {
-    margin-right: 13px;
+    margin-right: 5vw;
 }
 
 /* Make the page responsive when using a tablet >= 768px */
@@ -420,14 +420,20 @@ footer {
         position: relative;
     }
 
+    .contact-icons {
+        display: flex;
+        gap: 50px;
+        font-size: 200%;
+    }
+
     .contact-icons>a {
-        margin-left: 48px;
+        margin: 0;
     }
 
     .copyright {
         position: absolute;
         right: 0;
-        margin-right: 48px;
+        margin-right: 50px;
     }
 }
 
