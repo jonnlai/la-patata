@@ -164,7 +164,7 @@ th {
 }
 
 /* Tortilla slice photo */
-.tortilla-slice {
+.tortilla-image {
     width: 100%;
     height: 50vw;
 }
@@ -514,9 +514,10 @@ footer {
         justify-content: space-evenly;
     }
 
-    .tortilla-slice {
+    .tortilla-image {
         width: 300px;
         height: 180px;
+        border-radius: 5px;
     }
 
     /* Display hidden images when using a large screen */
@@ -635,7 +636,7 @@ footer {
         width: 650px;
     }
 
-    .tortilla-slice {
+    .tortilla-image {
         width: 600px;
         height: 350px;
         margin: 0 auto;
