@@ -29,6 +29,23 @@ The purpose of this website is to promote the business to London residents as we
 |  Find Us |![Mobile Find Us wireframe](assets/wireframes/mobile-find-us.png)|![Desktop Find Us wireframe](assets/wireframes/desktop-find-us.png)|
 |  Order   |![Mobile Order wireframe](assets/wireframes/mobile-order.png)    |![Desktop Order wireframe](assets/wireframes/desktop-order.png)    |
 
+## Features
+
+### General
+
+* The site was developed using "mobile first" development approach to ensure good User Experience for those using mobile phones and other smaller devices.
+* The site is fully responsive across all device sizes.
+* The site uses consistant colors, fonts and designs in all pages.
+
+#### Header
+
+* The header contains an illustration of a food truck to clearly communicate to the customers the type of the food business.
+* The header clearly shows the name of the business "La Patata" which means potato in Spanish making reference to one of the main ingredient of Spanish tortilla, potato.
+* The navigation bar for mobile phones and tables has a dropdown menu to save space on smaller screen. The design of the menu was inspired by Code Acedemy's Love Running Project. When the menu is open, it has transparent background and is displayed slightly on top of the hero image on the index.html page.
+![Header for mobiles and tablets](assets/readme-files/header-mobile.png)
+* When using a larger device than tablet the navigation menu is displayed horizontally. The background of the navigation menu remains slightly transparent and the menu is displayed over the hero image.
+![Header for larger devices](assets/readme-files/header-laptop.png)
+
 ## Testing
 
 ### Code Validation
