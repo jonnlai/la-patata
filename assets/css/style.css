@@ -265,8 +265,8 @@ details[open] {
 
 /* Order form */
 #order-form {
-    margin: 10px;
-    max-width: 500px;
+    margin: 0 auto;
+    max-width: 520px;
 }
 
 #order-form>fieldset {
@@ -274,6 +274,7 @@ details[open] {
     flex-direction: column;
     align-items: center;
     padding: 15px 5px;
+    margin: 20px 10px;
     border: 1px solid #020000;
 }
 
