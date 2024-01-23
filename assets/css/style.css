@@ -94,7 +94,7 @@ main {
 }
 
 #hero {
-    background: url("../images/hero-optimised.jpg") center center/cover;
+    background: url("../images/hero-optimised.webp") no-repeat center center/cover;
     width: 100%;
     height: 60vh;
 }
@@ -116,7 +116,7 @@ h2 {
     border: 2px solid #020000;
     border-radius: 5px;
     padding: 5px;
-    background: url("../images/menu-background-optimised.jpg") no-repeat center center/cover;
+    background: url("../images/menu-background-optimised.webp") no-repeat center center/cover;
     color: #fff;
     font-family: 'Shantell Sans', cursive;
 }
