@@ -278,11 +278,15 @@ details[open] {
     border: 1px solid #020000;
 }
 
-#order-form legend {
+legend {
     font-weight: bold;
 }
 
-#order-form label {
+fieldset>div {
+    margin-bottom: 5px;
+}
+
+fieldset label {
     width: 120px;
     display: inline-block;
 }
@@ -290,6 +294,7 @@ details[open] {
 .form-response {
     width: 150px;
     display: inline-block;
+    padding: 3px;
 }
 
 #terms-conditions-div {
@@ -505,6 +510,7 @@ footer {
 
     .internal-link:hover {
         font-weight: bold;
+        transition: 200ms ease;
     }
 
     /* Tortilla images */
