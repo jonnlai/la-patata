@@ -125,6 +125,27 @@ The purpose of this website is to promote the business to London residents as we
 * The form uses built-in client-side form validation to ensure that all the required data is submitted in correct format to prevent issues and delay with customer orders.  
 ![Order form](assets/readme-files/order-form.png)
 
+## Technologies Used
+
+### Languages Used
+
+* [HTML5](https://html.com/html5/)
+* [CSS3](https://www.w3.org/Style/CSS/)
+
+### Frameworks, Libraries and Programmes Used
+
+* [Balsamiq](https://balsamiq.com/) was used for designing the project and creating wireframes to communicate the vision.
+* [Codeanywhere](https://codeanywhere.com/) was used for writing, committing and pushing code to GitHub.
+* [GitHub](https://github.com/) was used for storing the project.
+* [Google Fonts](https://fonts.google.com/) was used to import the selected fonts.
+* [Font Awesome](https://fontawesome.com/) was used to add icons to the site to give the user a visual representation of some of the information presented.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools) were used regularly throughout the development of the project to test and troubleshoot.
+* [Pixelied](https://pixelied.com/convert/) was used to covert the images used to webp format.
+* [TinyPNG](https://tinypng.com/) was used to optimise the images by reducing their size.
+* [Favicon.io](https://favicon.io/) was used to create the Favicon.
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check the site's responsiveness on different devices.
+* [Am I responsive?](https://ui.dev/amiresponsive) was used to create the mockup image of the landing page on different devices.
+
 ## Testing
 
 ### Code Validation
