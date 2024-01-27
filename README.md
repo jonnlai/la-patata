@@ -19,6 +19,18 @@ The purpose of this website is to promote the business to London residents as we
 * As a local food-lover, I want to be able to find information about the product and the ingredients used so that I can understand more about the quality of the product.
 * As a regular customer, I want to be able to buy several tortillas so that I can serve them in my family event.
 
+### Color Palette
+
+![Color Palette](assets/readme-files/lapatata-color-palette.png)
+
+The color palette was created from the Hero image using [Coolors](https://coolors.co/) color palette generator. The shades of brown, yellow and green reflect the colors of a tortilla and its ingredients. The generator suggested using #020000 but this was replaced by #000 during the development process and the palette was updated to reflect this.
+
+The colors of the palette were used throughout the site except for the font of the menu. White font color was used to give the impression that the menu had been hand-written on a chalkboard using a piece of chalk.
+
+### Typography
+
+The main font used is Sanchez, with serif as the fallback font. Dekko was used for the main headings (h1 and h2) with cursive as the fallback. Shantell Sans with cursive as the fallbackwas used for the menu to give it a hand-written feel.
+
 ### Wireframes
 
 [Balsamiq](https://balsamiq.com/) User Interface wireframing tool was used to design the structure of the website.
