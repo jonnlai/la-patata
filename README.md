@@ -1,8 +1,12 @@
 # La Patata
 
+![Mockup image of the site](assets/readme-files/mockup-image.png)
+
 La Patata is a fictional food truck business selling Spanish tortillas in different food markets in London, UK.
 
-The purpose of this website is to promote the business to London residents as well as people visiting London. The website provides information about the menu, ingredients used as well as the locations and the timetable of the food truck. It also provides a function to pre-order tortillas for collection to local people who would like order several tortillas for example for private family events.
+The purpose of this website is to promote the business to London residents as well as people visiting London. The website provides information about the menu, ingredients used as well as the locations and the opening times of the food truck. It also provides a function to pre-order tortillas for collection to local people who would like order several tortillas, for example, for private family events.
+
+The deployed site can be found here: [La Patata website](https://jonnlai.github.io/la-patata/)
 
 ## User Experience (UX)
 
@@ -47,11 +51,12 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 * The site was developed using "mobile first" development approach to ensure good User Experience for those using mobile phones and other smaller devices.
 * The site is fully responsive across all device sizes.
-* The site uses consistant colors, fonts and designs in all pages.
+* Consistant style, including colors and fonts, were used across all the pages.
 
 #### Favicon
 
-* The Favicon is a simple letter P on a light brown background and it uses the same font than the main heading "La Patata". The background colour is the same colour that is being used across the site for the headers and footers. The letter P stands for patata, potato in Spanish, the name of the business and the main ingredient of the product.  
+* The Favicon is a simple letter P on a light brown background and it uses the same font than the main heading "La Patata". The background colour is the same colour that is being used across the site for the headers and footers. The letter P stands for patata, potato in Spanish, the name of the business and the main ingredient of the product.
+
 ![Favicon image](assets/readme-files/favicon.png)
 
 #### Header
