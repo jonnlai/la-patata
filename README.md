@@ -195,7 +195,7 @@ The website was tested on the following devices:
 * Dell P2419H 24" screen - no issues identified.
 * Samsung Galxy Tab S4 - no issues identified.
 
-* However, even though no issues with functionality, appearence or responsiveness were identified, it was noted that in order to improve user experience, it would be beneficial to increase the font size the navigation bar items as well as the gap between them to make it easier for people with bigger fingers to select the correct link.
+* However, even though no issues with functionality, appearence or responsiveness were identified, it was noted that in order to improve user experience, it would be beneficial to increase the font size the navigation bar items as well as the gap between them to make it easier for people with bigger fingers to select the correct link when using a mobile device or a tablet.
 
 ## Deployment
 

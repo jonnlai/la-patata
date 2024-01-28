@@ -67,7 +67,7 @@ nav {
 #navbar {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 1rem;
     padding: 1rem;
 }
 
@@ -75,6 +75,7 @@ nav {
     list-style-type: none;
     align-self: flex-end;
     font-weight: bold;
+    font-size: 20px;
 }
 
 #navbar a {
