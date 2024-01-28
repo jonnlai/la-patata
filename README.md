@@ -174,6 +174,29 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
   * Warning messages: ![Code Validator Warnings 17.01.24](assets/readme-files/code-validator-warnings-17.01.png)
   * Info messages after the highlighted issue was resolved: ![Code Validator Info messages 17.01.2024](assets/readme-files/info-messages-17.01.png)
 
+### Manual Testing
+
+#### Browser compatibility
+
+The website was tested on the following browsers:
+
+* Google Chrome - no issues identified.
+* Mozilla Firefox - no issues identified.
+* Microsoft Edge - no issues identified.
+
+#### Device compatibility
+
+The website was tested on the following devices:
+
+* Sony Xperia 10 III - no issues identified.
+* Samsung Galaxy A52s - no issues identified.
+* Lenovo Yoga s730 - no issues identified.
+* Sony VAIO 15" - no issues identified.
+* Dell P2419H 24" screen - no issues identified.
+* Samsung Galxy Tab S4 - no issues identified.
+
+* However, even though no issues with functionality, appearence or responsiveness were identified, it was noted that in order to improve user experience, it would be beneficial to increase the font size the navigation bar items as well as the gap between them to make it easier for people with bigger fingers to select the correct link.
+
 ## Deployment
 
 This project was developed using [Codeanywhere](https://codeanywhere.com/) integrated development environment and the project was deployed to GitHub pages. The project was deployed in the early stages of the development process to allow the developer to test the site on different deviced and identify and fix any issues.
