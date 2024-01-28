@@ -168,3 +168,22 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
   * Warning messages: ![Code Validator Warnings 17.01.24](assets/readme-files/code-validator-warnings-17.01.png)
   * Info messages after the highlighted issue was resolved: ![Code Validator Info messages 17.01.2024](assets/readme-files/info-messages-17.01.png)
+
+## Deployment
+
+This project was developed using [Codeanywhere](https://codeanywhere.com/) integrated development environment and the project was deployed to GitHub pages. The project was deployed in the early stages of the development process to allow the developer to test the site on different deviced and identify and fix any issues.
+
+### GitHub pages
+
+The project was deployed to GitHub pages taking the following steps:
+
+1. Log into **GitHub** and locate your GitHub repo.
+2. Open the **Settings** tab of your GitHub repo.
+3. Locate the **Code and automation** section on the side menu, and select **Pages**.
+4. Under **Build and Deployment**,
+   1. set **Source** to Deploy from Branch,
+   2. set **Branch** to Main Branch,
+   3. set **Folder** to / (root) and
+   4. click **Save**.
+5. Open the **Code** tab and refresh your page after a couple of minutes.
+6. Under **Deployment**, select 'github-pages' and click the link under **Active Deployments**.
