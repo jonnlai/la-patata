@@ -187,3 +187,32 @@ The project was deployed to GitHub pages taking the following steps:
    4. click **Save**.
 5. Open the **Code** tab and refresh your page after a couple of minutes.
 6. Under **Deployment**, select 'github-pages' and click the link under **Active Deployments**.
+
+## Credits
+
+### Content
+
+All the content was written by the developer.
+
+### Media
+
+#### Images
+
+* The Hero image and the images of tortilla and its ingredients were taken by the developer.
+* The menu background image: a photo by [Peter Gargiulo](https://unsplash.com/@grndezyns) on [Unsplash](https://unsplash.com/).
+* The visit us food truck image: a photo by [Kampus Production](https://www.pexels.com/@kampus/) on [Pexels](https://www.pexels.com/).
+* The illustration of the food truck was created by the developer's partner.
+
+#### Icons
+
+* All icons are from [Font Awesome](https://fontawesome.com/).
+
+### Code
+
+* The idea for the Navigation menu toggle using only HTML and CSS was taken from Code Institute's Love Running project. The HTML structure was taken from the project but it was styled differently by the developer to meet the needs of this project.
+* The resources of Part 1 of Code Institute's Diploma in Full Stack Software Development were regularly consulted for ideas.
+* [W3Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/) were consulted for ideas and to ensure understanding.
+
+### Commit messages
+
+* The developer was introduced to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) by her mentor Marcel Mulders. The use of Conventional Commits was implemented halfway through the project.
