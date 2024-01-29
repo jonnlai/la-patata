@@ -165,14 +165,32 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 ## Testing
 
+### User Stories Testing
+
+1. As a visitor to London, I want to be able to find information about the locations and opening times easily using my mobile phone so that I can find the business while on the move.
+   * The site was developed using mobile-first approach, and testing shows that the site works effectively on mobiles.
+   * The maps are easy to open and enlarge using a mobile phone.
+2. As a local food-lover, I want to be able to find information about the product and the ingredients used so that I can understand more about the quality of the product.
+   * The menu displays the different options clearly and list all the ingredients used. The menu also displays the prices.
+   * The About section explains more about the ingredients and the approach that the business owners are taking to creating their product.
+3. As a regular customer, I want to be able to buy several tortillas so that I can serve them in my family event.
+   * The Order form allows an order to be placed online using a UK mobile phone number and an email address. An order can also be placed via email if the customer does not want to or cannot place an order using the form.
+
 ### Code Validation
 
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate all the pages to ensure that the project meets the current Web Standards and is from any unintended syntax errors and mistakes that could use issues with accessibilty and usability.
 
 * The pages were validated once half-way through the development. In index.html, W3C Markup Validator found an issue of two sections, hero image and tortilla images, not containing a heading. This was rectified by replacing these section tags with div tags. No issues were found on the other pages or with the CSS code. The Validator highlighted several times that the trailing slash on void elements had no effect. However, these were not removed as they had been added by Prettier when the code had been formatted.
 
-  * Warning messages: ![Code Validator Warnings 17.01.24](assets/readme-files/code-validator-warnings-17.01.png)
-  * Info messages after the highlighted issue was resolved: ![Code Validator Info messages 17.01.2024](assets/readme-files/info-messages-17.01.png)
+  * Warning messages: ![Code Validator Warnings 17.01.24](assets/readme-files/code-validator-warnings-1701.png)
+  * Info messages after the highlighted issue was resolved: ![Code Validator Info messages 17.01.2024](assets/readme-files/info-messages-1701.png)
+
+* The pages were validated again after all development had finished. No issues were identified.
+  
+  * Landing page: ![Code validator Index page 29.01.24](assets/readme-files/code-validator-index-2901.png)
+  * Find Us page: ![Code validator Find Us page 29.01.24](assets/readme-files/code-validator-find-us-2901.png)
+  * Order page: ![Code validator Order page 29.01.24](assets/readme-files/code-validator-order-2901.png)
+  * CSS: ![Code validator - CSS](assets/readme-files/code-validator-css-2901.png)
 
 ### Manual Testing
 
@@ -195,7 +213,32 @@ The website was tested on the following devices:
 * Dell P2419H 24" screen - no issues identified.
 * Samsung Galxy Tab S4 - no issues identified.
 
-* However, even though no issues with functionality, appearence or responsiveness were identified, it was noted that in order to improve user experience, it would be beneficial to increase the font size the navigation bar items as well as the gap between them to make it easier for people with bigger fingers to select the correct link when using a mobile device or a tablet.
+Even though no issues with functionality, appearence or responsiveness were identified, it was noted that in order to improve user experience, it would be beneficial to increase the font size the navigation bar items as well as the gap between them to make it easier for people with bigger fingers to select the correct link when using a mobile device or a tablet. This was updated.
+
+#### Common Elements Testing
+
+* **Navigation toggle:** When using a small device, the navigation bar opens and closes correctly when toggled. The active page is underlined.
+* **Navigation bar:** The navigation bar is displayed correctly under the header when using a laptop or a desktop. The active page is underlined.
+* **Footer contact icons:** Social media links open the appropriate website and the email "mailto" link opens a new email.
+* **Call to action links:** Call to action links on the landing page open the Find Us and Order pages correctly.
+* **Landing page images:** When using a laptop, the landing page is correctly displaying three images instead of one.
+* **Maps:** The maps on the Find Us page display the correct location and allow the user to enlarge them and zoom in/out.
+* **TAC widget:** The terms and conditions widget on the Order page correctly displays the terms and conditions when clicked. When using a larger device, the summary element changes colour when hovered to encourage the user to click it open.
+* **Order form:** The form on the Orger page correctly checks that all fields have been completed, validates the information inputted and requires terms and conditions to be accepted before the form can be submitted. The form submits the information correctly.
+
+### Performance and accessibility
+
+Chrome DevTool Lighthouse report indicated that the site was performing poorly due to the large image sizes. The images were re-sized to improve user experience. The report also highlighted that the iframes used to display maps on Find Us page did not have titles. These were added to improve accessibility.
+
+Lighthouse reports after the above mentioned issues were addressed:
+
+* Landing page: ![Landing page lighthouse report](assets/readme-files/lighthouse-index-2901.png)
+* Find Us page: ![Find Us page lighthouse report](assets/readme-files/lighthouse-find-us-2901.png)
+* Order page: ![Order page lighthouse report](assets/readme-files/lighthouse-order-2901.png)
+
+### Responsiveness
+
+In addition to manual checks, responsiveness was tested using [Chrome DevTools](https://developer.chrome.com/docs/devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/). No issues were identified.
 
 ## Deployment
 

@@ -624,7 +624,6 @@ footer {
 
 /* Make the page responsive when using a desktop >= 1320px */
 @media screen and (min-width: 1320px) {
-
     /* Index page */
     #index-main {
         justify-content: space-evenly;
