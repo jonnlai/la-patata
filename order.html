@@ -36,7 +36,6 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-
   <body>
     <!-- Header -->
     <header>
@@ -68,14 +67,14 @@
         </p>
         <div id="collection">
           <h4>Collection:</h4>
-          <ul>
+          <ul id="collection-times">
             <li>Wednesdays and Sundays from Victoria Park from 12noon</li>
             <li>Thursdays and Saturdays from Brick Lane from 12noon</li>
           </ul>
         </div>
         <details>
           <summary>Terms and conditions</summary>
-          <ul>
+          <ul id="tac">
             <li>you need to place your order by 12noon the previous day.</li>
             <li>
               your order has been accepted only if you receive a confirmation
@@ -103,6 +102,7 @@
       >
         <fieldset>
           <legend>Pre-order tortillas</legend>
+          <!-- Contact details -->
           <div>
             <label for="first-name">First Name:</label>
             <input
@@ -164,6 +164,7 @@
               <option value="brick-lane-sat">Brick Lane / Saturday</option>
             </select>
           </div>
+          <!-- Date -->
           <div>
             <label for="collection-date">Collection date:</label>
             <input
@@ -192,6 +193,7 @@
               <option value="mediterranean">Mediterranean</option>
             </select>
           </div>
+          <!--Number of tortillas -->
           <div>
             <label for="tortilla-number">No of tortillas:</label>
             <input
@@ -205,6 +207,7 @@
               required
             />
           </div>
+          <!-- TAC -->
           <div id="terms-conditions-div">
             <input
               type="checkbox"
@@ -217,6 +220,7 @@
               >I have read and understood the terms and conditions</label
             >
           </div>
+          <!-- Submit button -->
           <input type="submit" value="Place an order" />
         </fieldset>
       </form>
@@ -248,7 +252,7 @@
         ><i class="fa-regular fa-copyright"></i> La Patata 2024</span
       >
     </footer>
-
+    <!-- Font Awesome kit -->
     <script
       src="https://kit.fontawesome.com/e56b74d13c.js"
       crossorigin="anonymous"

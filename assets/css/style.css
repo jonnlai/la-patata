@@ -38,6 +38,7 @@ h1 {
 
 header>img {
     height: 10vw;
+    width: 16vw;
     margin: auto 0 auto 1rem;
 }
 
@@ -50,6 +51,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* The idea for the nav toggle was taken from Code Institute's Love Running project */
 #nav-toggle {
     display: none;
 }
@@ -170,6 +172,7 @@ th {
     height: 50vw;
 }
 
+/* Hide extra images when using a smaller screen */
 .hidden {
     display: none;
 }
@@ -234,7 +237,8 @@ th {
     margin: 10px;
 }
 
-#order-info li {
+#collection-times>li,
+#tac>li {
     list-style: outside;
     margin-left: 30px;
 }
@@ -244,6 +248,7 @@ th {
 }
 
 /* Terms and conditions interactive widget */
+/* MDN Web docs were consulted to built the widget */
 details {
     margin: 10px auto;
     border: 1px solid #000;
@@ -270,7 +275,7 @@ details[open] {
     max-width: 520px;
 }
 
-#order-form>fieldset {
+fieldset {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -400,13 +405,14 @@ footer {
         margin: 1rem;
     }
 
-    #order-info>#collection,
-    #order-info>p {
+    #order-info>p,
+    #collection {
         text-align: center;
         margin: 1rem 3rem;
     }
 
-    #collection li {
+    #collection-times>li,
+    #tac>li {
         list-style: inside;
     }
 
@@ -459,6 +465,7 @@ footer {
 
     header img {
         height: 90px;
+        width: 150px;
     }
 
     nav {
@@ -517,7 +524,7 @@ footer {
     /* Tortilla images */
     #tortilla-images {
         display: flex;
-        flex: 100%;
+        flex-basis: 100%;
         justify-content: space-evenly;
     }
 
@@ -527,7 +534,7 @@ footer {
         border-radius: 5px;
     }
 
-    /* Display hidden images when using a large screen */
+    /* Display hidden images when using a laptop */
     .hidden {
         display: inline;
     }
@@ -540,7 +547,7 @@ footer {
 
     /* Find Us page */
     #find-us-main {
-        /* Bring the title lower to stop the header covering it */
+        /* Bring the title lower to stop the header from covering it */
         padding-top: 80px;
     }
 
@@ -566,6 +573,7 @@ footer {
     details:hover {
         background-color: #000;
         color: #ddbc8d;
+        transition: 200ms ease;
     }
 
     details[open] {
@@ -582,13 +590,13 @@ footer {
         max-width: 800px;
     }
 
-    #order-form>fieldset {
+    fieldset {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
-    #order-form div {
+    fieldset>div {
         margin-bottom: 15px;
     }
 
@@ -612,6 +620,8 @@ footer {
 
 /* Make the page responsive when using a desktop >= 1320px */
 @media screen and (min-width: 1320px) {
+
+    /* Index page */
     #index-main {
         justify-content: space-evenly;
         align-items: center;
@@ -623,15 +633,12 @@ footer {
         width: 650px;
     }
 
+    /* Menu */
     .tortilla-type {
         width: 350px;
     }
 
-    /* How to enjoy section */
-    #how-to-enjoy>p {
-        margin: 0;
-    }
-
+    /* Tortilla images */
     /* Hide two of the images to align the main image with the text sections */
     .hidden {
         display: none;
@@ -648,6 +655,11 @@ footer {
         height: 350px;
         margin: 0 auto;
         padding: 20px;
+    }
+
+    /* How to enjoy section */
+    #how-to-enjoy>p {
+        margin: 0;
     }
 
     /* Find Us page */
