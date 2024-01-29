@@ -232,6 +232,10 @@ th {
     margin: 20px 0;
 }
 
+.send-email {
+    color:#3c4213;
+}
+
 /* Pre-order page */
 #order-info {
     margin: 10px;
