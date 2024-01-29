@@ -259,6 +259,14 @@ The project was deployed to GitHub pages taking the following steps:
 5. Open the **Code** tab and refresh your page after a couple of minutes.
 6. Under **Deployment**, select 'github-pages' and click the link under **Active Deployments**.
 
+## Finished Product
+
+|            | Mobile  | Tablet  |  Laptop  |  Desktop  |
+| ---        | ---     |  ---    |   ---    |   ---     |
+|Landing Page|![mobile index](assets/readme-files/mobile-index.png)|![tablet index](assets/readme-files/tablet-index.png)|![laptop index](assets/readme-files/laptop-index.png)|![desktop index](assets/readme-files/desktop-index.png)|
+|Find Us Page|![mobile find us](assets/readme-files/mobile-find-us.png)|![tablet find us](assets/readme-files/tablet-find-us.png)|![laptop find us](assets/readme-files/laptop-find-us.png)|![desktop find us](assets/readme-files/desktop-find-us.png)|
+|Order Page  |![mobile order](assets/readme-files/mobile-order.png)|![tablet order](assets/readme-files/tablet-order.png)|![laptop order](assets/readme-files/laptop-order.png)|![desktop order](assets/readme-files/desktop-order.png)|
+
 ## Credits
 
 ### Content
