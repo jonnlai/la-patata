@@ -119,6 +119,7 @@ h2 {
     border: 2px solid #000;
     border-radius: 5px;
     padding: 5px;
+    /* Menu background image by Peter Gargiulo on Unsplash */
     background: url("../images/menu-background.webp") no-repeat center center/cover;
     color: #fff;
     font-family: 'Shantell Sans', cursive;
