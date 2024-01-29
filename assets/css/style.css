@@ -404,6 +404,10 @@ footer {
         border-radius: 5%;
     }
 
+    .email-light {
+        color: #ddbc8d;
+    }
+
     /* Order page */
     #order-info>h2 {
         margin: 1rem;
@@ -691,5 +695,9 @@ footer {
         background-color: inherit;
         color: inherit;
         margin: 0;
+    }
+
+    .send-email {
+        color: #3c4213;
     }
 }
