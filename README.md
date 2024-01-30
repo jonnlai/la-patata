@@ -269,6 +269,8 @@ The project was deployed to GitHub pages taking the following steps:
 
 ## Finished Product
 
+The project was developed for four screen sizes: mobile (320px to 767px), tablet (768px to 991px), laptop (992px to 1320px) and desktop (>=1320px). The decision to use 1320px as the final breakpoint instead of the standardized breakpoint of 1200px was made based on the design of the index page, especially the layput of the three images and the *How to Enjoy* section.
+
 |            | Mobile  | Tablet  |  Laptop  |  Desktop  |
 | ---        | ---     |  ---    |   ---    |   ---     |
 |Landing Page|![mobile index](assets/readme-files/mobile-index.png)|![tablet index](assets/readme-files/tablet-index.png)|![laptop index](assets/readme-files/laptop-index.png)|![desktop index](assets/readme-files/desktop-index.png)|
@@ -299,7 +301,17 @@ All the content was written by the developer.
 * The idea for the Navigation menu toggle using only HTML and CSS was taken from Code Institute's Love Running project. The HTML structure was taken from the project but it was styled differently by the developer to meet the needs of this project.
 * The resources of Part 1 of Code Institute's Diploma in Full Stack Software Development were regularly consulted for ideas.
 * [W3Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/) were consulted for ideas and to ensure understanding.
+* Code Institute's HTML learning resources and [MDN Web Docs](https://developer.mozilla.org/en-US/) were consulted to create the disclosure widget to display and hide the full terms and conditions.
 
 ### Commit messages
 
 * The developer was introduced to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) by her mentor Marcel Mulders. The use of Conventional Commits was implemented halfway through the project.
+
+## Features not implemented
+
+The following features were considered during the development of this project but it has not been possible to implement them yet.
+
+* **Fixed header** It could improve used experience to have a fixed header to give the users an ease access to the navigation bar at all times.
+* **404 page** Having an interesting 404 error page could improve user experience in case of any broken links or the user entering the address incorrectly.
+* **Thank you page** User experience could be improved by directing users to a Thank you page once they have submitted their order.
+* **Order form** The order form requires the users to select from a dropdown list their preferred collection location and the day of the week when they would like to collect their order. However, when selecting the date of collection, the users are able to select any date, including those that do not match with their their selected day of the week. Ways to validate this user input with Javascript could be explored in the future.
