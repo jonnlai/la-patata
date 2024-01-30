@@ -224,6 +224,7 @@ Even though no issues with functionality, appearence or responsiveness were iden
 * **Landing page images:** When using a laptop, the landing page is correctly displaying three images instead of one.
 * **Maps:** The maps on the Find Us page display the correct location and allow the user to enlarge them and zoom in/out.
 * **TAC widget:** The terms and conditions widget on the Order page correctly displays the terms and conditions when clicked. When using a larger device, the summary element changes colour when hovered to encourage the user to click it open.
+* **Email addresses:** When the email address links are clicked a new email to the business is opened. There was an issue with one of the links on the Order page caused by incorrectly typed address. This was solved by adding the missing .com to the email address in question.
 * **Order form:** The form on the Orger page correctly checks that all fields have been completed, validates the information inputted and requires terms and conditions to be accepted before the form can be submitted. The form submits the information correctly.
 
 ### Performance and accessibility
@@ -239,6 +240,13 @@ Lighthouse reports after the above mentioned issues were addressed:
 ### Responsiveness
 
 In addition to manual checks, responsiveness was tested using [Chrome DevTools](https://developer.chrome.com/docs/devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/). No issues were identified.
+
+### Solved Bugs
+
+The following bugs were noticed and fixed during the development phase:
+
+* The body element had *height: 100vh* instead of *min-height: 100vh* which meant the footer did not stick to the bottom as planned. This was fixed by changing it to *min-height: 100vh*. However, this resulted in the hero image disappearing as its height had been set using a percentage. This was fixed by setting the height of the Hero image using *vh* instead.
+* The order form has been set to have max-width to prevent it from getting unnecessarily wide. On screens smaller than 768px, the form had been given margin of 10px on its left and right sides to prevent it from getting too close to the sides. This looked good on phone screens but during the development process, it was noticed that this meant that when the screen size got larger than the max-width+20px, the form remained 10px from the left-side. This was fixed by setting the margin of the *form* element to *0 auto* and setting the left and right margin of *fieldset* element to *10px*.
 
 ## Deployment
 
