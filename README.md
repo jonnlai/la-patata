@@ -43,9 +43,9 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 |  Page    |                         Mobile                                  |                         Desktop                                   |
 |  ---     |                         ---                                     |                         ---                                       |
-|  Index   |![Mobile Index wireframe](wireframes/mobile-index.png)    |![Desktop Index wireframe](wireframes/desktop-index.png)    |
-|  Find Us |![Mobile Find Us wireframe](wireframes/mobile-find-us.png)|![Desktop Find Us wireframe](wireframes/desktop-find-us.png)|
-|  Order   |![Mobile Order wireframe](wireframes/mobile-order.png)    |![Desktop Order wireframe](wireframes/desktop-order.png)    |
+|  Index   |![Mobile Index wireframe](readme-files/wireframes/mobile-index.png)    |![Desktop Index wireframe](readme-files/wireframes/desktop-index.png)    |
+|  Find Us |![Mobile Find Us wireframe](readme-files/wireframes/mobile-find-us.png)|![Desktop Find Us wireframe](readme-files/wireframes/desktop-find-us.png)|
+|  Order   |![Mobile Order wireframe](readme-files/wireframes/mobile-order.png)    |![Desktop Order wireframe](readme-files/wireframes/desktop-order.png)    |
 
 ## Features
 
@@ -59,22 +59,22 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 * The Favicon is a simple black letter P on a light brown background, and it uses the same font as the main heading "La Patata". The background colour is the same colour that is being used across the site for the headers and footers. The letter P stands for patata, potato in Spanish, which is the name of the business and the main ingredient of the product.
 
-![Favicon image](readme-files/favicon.png)
+![Favicon image](readme-files/features/favicon.png)
 
 #### Header
 
 * The header contains an illustration of a food truck to clearly communicate to the customers the type of food business.
 * The header clearly shows the name of the business, "La Patata", which means potato in Spanish, making reference to one of the main ingredients of Spanish tortilla, potato.
 * The navigation bar for mobile phones and tables is a dropdown menu that can be toggled open/close to save space on smaller screens. The idea for the menu was taken for Code Acedemy's Love Running Project. When the menu is open, it has a transparent background and is displayed slightly on top of the hero image on the index.html page.  
-![Header for mobiles and tablets](readme-files/header-mobile.png)
+![Header for mobiles and tablets](readme-files/features/header-mobile.png)
 * When using a larger device than a tablet the navigation menu is displayed horizontally. The background of the navigation menu remains slightly transparent and the menu is displayed over the hero image.  
-![Header for larger devices](readme-files/header-laptop.png)
+![Header for larger devices](readme-files/features/header-laptop.png)
 
 #### Footer
 
 * The footer has Facebook and Instagram icons that contain links to the social media sites as well as a mail icon that users can click to send an email to the company. The footer also contains the Copyright information. When using a mobile phone the social media icons are located on the left-side, and when using a tablet or a larger device, the icons are in the centre.  
-![Footer for mobiles](readme-files/footer-mobile.png)
-![Footer for tablets and larger devices](readme-files/footer-laptop.png)
+![Footer for mobiles](readme-files/features/footer-mobile.png)
+![Footer for tablets and larger devices](readme-files/features/footer-laptop.png)
 
 ### Landing Page
 
@@ -85,32 +85,32 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 * The Hero image shows a Spanish tortilla and some of its raw ingredients placed on a wooden board. The image conveys authenticity, quality and freshness of the product and gives a friendly, homely feel to the customer. The image gives the customer an insight into the business's traditional approach to making tortilla.
 * The Hero image is fully responsive, and the size of the image adjusts according to the screen size always ensuring that the product (tortilla) catches the customer's attention.  
-![Hero image of tortilla](readme-files/hero-image.png)
+![Hero image of tortilla](readme-files/features/hero-image.png)
 
 #### Tortilla Menu
 
 * The tortilla menu lists all the different types of tortillas available and their prices. The menu lists all the ingredients so that customers with dietary requirements are able to make an informed decision about whether the product is suitable for them.
 * The tortilla menu has been designed to represent a menu hand-written on a chalkboard that are commonly used in food markets. The font style was selected because it is clear but gives the impression that it has been hand-written and font colour is white to represent chalk.  
-![Menu image](readme-files/tortilla-menu.png)
+![Menu image](readme-files/features/tortilla-menu.png)
 
 #### About Us
 
 * The About Us section gives customers information about the business owners and demonstrates their passion for Spanish food and making high-quality products.
 * The section has a link to the "Find Us" page as a call to action to visit one of the food markets where the food truck operates.  
-![About Us page image](readme-files/about-us.png)
+![About Us page image](readme-files/features/about-us.png)
 
 #### Tortilla images
 
 * An image of a tortilla slice is displayed when mobile phones and tablets are being used. This image gives the customer an idea of the portion they would be purchasing.
 * When a laptop is being used, three images are displayed: an image of a tortilla slice, an image of the ingredients, and an image of a full tortilla cut into six slices.
 * On larger desktop screens, only the tortilla slice image is being displayed again to make the layout of the page more visually appealing and avoid the images from looking too spread out on the larger screens.  
-![Tortilla slice image](readme-files/tortilla-slice.png) ![Tortilla images for laptops](readme-files/tortilla-images-laptop.png)
+![Tortilla slice image](readme-files/features/tortilla-slice.png) ![Tortilla images for laptops](readme-files/features/tortilla-images-laptop.png)
 
 #### How to Enjoy Section
 
 * The How to Enjoy Section gives light-hearted suggestions on how and when to eat tortillas. The section encourages customers to engage with the business and try the product.
 * The section includes two calls to action to encourage customers' to try the product: a link to the Find Us page and a link to the Order page.  
-![How to Enjoy section image](readme-files/how-to-enjoy.png)
+![How to Enjoy section image](readme-files/features/how-to-enjoy.png)
 
 ### Find Us page
 
@@ -120,13 +120,13 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 * This section shows the names and addresses of two locations where the food truck stops and gives the opening times.
 * Both locations are also shown on a Google map using an iframe to allow customers to find the business easily. This function serves especially customers who are on the move and using a mobile phone to look for a place to eat now.  
-![Locations image](readme-files/where-to-find.png)
+![Locations image](readme-files/features/where-to-find.png)
 
 #### Contact us section
 
 * This section shows a photo of the fictional food truck to help customers to locate the business when visiting a food market.
 * The business's mobile phone number and email address are displayed to allow customers to contact the business easily.  
-![Contact us image](readme-files/contact-details.png)
+![Contact us image](readme-files/features/contact-details.png)
 
 ### Order page
 
@@ -136,13 +136,13 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 * This section explains how to pre-order tortillas and reminds customers of the days and locations when they can collect their order.
 * The terms and conditions have been placed inside a disclosure widget to improve user experience by saving space on customers' screens when they are not reading the terms and conditions.  
-![Order information](readme-files/pre-order-info.png) ![TAC open](readme-files/tac-widget-open.png)
+![Order information](readme-files/features/pre-order-info.png) ![TAC open](readme-files/features/tac-widget-open.png)
 
 #### Order form
 
 * The form allows customers to pre-order a larger number of tortillas for collection easily.
 * The form uses built-in client-side form validation to ensure that all the required data is submitted in correct format to prevent issues and delays with orders.  
-![Order form](readme-files/order-form.png)
+![Order form](readme-files/features/order-form.png)
 
 ## Technologies Used
 
@@ -184,15 +184,15 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 
 * The pages were validated once half-way through the development. In index.html, W3C Markup Validator found two issues: the *hero image* section and the *tortilla images* section did not contain a heading. This was rectified by replacing these section tags with div tags. No issues were found on the other pages or with the CSS code. The Validator highlighted several times that the trailing slash on void elements had no effect. However, these were not removed as they had been added by Prettier when the code had been formatted.
 
-  * Warning messages: ![Code Validator Warnings 17.01.24](readme-files/code-validator-warnings-1701.png)
-  * Info messages after the highlighted issue was resolved: ![Code Validator Info messages 17.01.2024](readme-files/info-messages-1701.png)
+  * Warning messages: ![Code Validator Warnings 17.01.24](readme-files/testing/code-validator-warnings-1701.png)
+  * Info messages after the highlighted issue was resolved: ![Code Validator Info messages 17.01.2024](readme-files/testing/info-messages-1701.png)
 
 * The pages were validated again after all development had finished. No issues were identified.
   
-  * Landing page: ![Code validator Index page 29.01.24](readme-files/code-validator-index-2901.png)
-  * Find Us page: ![Code validator Find Us page 29.01.24](readme-files/code-validator-find-us-2901.png)
-  * Order page: ![Code validator Order page 29.01.24](readme-files/code-validator-order-2901.png)
-  * CSS: ![Code validator - CSS](readme-files/code-validator-css-2901.png)
+  * Landing page: ![Code validator Index page 29.01.24](readme-files/testing/code-validator-index-2901.png)
+  * Find Us page: ![Code validator Find Us page 29.01.24](readme-files/testing/code-validator-find-us-2901.png)
+  * Order page: ![Code validator Order page 29.01.24](readme-files/testing/code-validator-order-2901.png)
+  * CSS: ![Code validator - CSS](readme-files/testing/code-validator-css-2901.png)
 
 ### Manual Testing
 
@@ -236,11 +236,11 @@ Chrome DevTool Lighthouse report indicated that the site was performing poorly d
 Lighthouse reports after the above-mentioned issues were addressed:
 
 * Landing page:  
-![Landing page lighthouse report](readme-files/lighthouse-index-2901.png)
+![Landing page lighthouse report](readme-files/testing/lighthouse-index-2901.png)
 * Find Us page:  
-![Find Us page lighthouse report](readme-files/lighthouse-find-us-2901.png)
+![Find Us page lighthouse report](readme-files/testing/lighthouse-find-us-2901.png)
 * Order page:  
-![Order page lighthouse report](readme-files/lighthouse-order-2901.png)
+![Order page lighthouse report](readme-files/testing/lighthouse-order-2901.png)
 
 ### Responsiveness
 
@@ -278,9 +278,9 @@ The project was developed for four screen sizes: mobile (320px to 767px), tablet
 
 |            | Mobile  | Tablet  |  Laptop  |  Desktop  |
 | ---        | ---     |  ---    |   ---    |   ---     |
-|Landing Page|![mobile index](readme-files/mobile-index.png)|![tablet index](readme-files/tablet-index.png)|![laptop index](readme-files/laptop-index.png)|![desktop index](readme-files/desktop-index.png)|
-|Find Us Page|![mobile find us](readme-files/mobile-find-us.png)|![tablet find us](readme-files/tablet-find-us.png)|![laptop find us](readme-files/laptop-find-us.png)|![desktop find us](readme-files/desktop-find-us.png)|
-|Order Page  |![mobile order](readme-files/mobile-order.png)|![tablet order](readme-files/tablet-order.png)|![laptop order](readme-files/laptop-order.png)|![desktop order](readme-files/desktop-order.png)|
+|Landing Page|![mobile index](readme-files/finished-product/mobile-index.png)|![tablet index](readme-files/finished-product/tablet-index.png)|![laptop index](readme-files/finished-product/laptop-index.png)|![desktop index](readme-files/finished-product/desktop-index.png)|
+|Find Us Page|![mobile find us](readme-files/finished-product/mobile-find-us.png)|![tablet find us](readme-files/finished-product/tablet-find-us.png)|![laptop find us](readme-files/finished-product/laptop-find-us.png)|![desktop find us](readme-files/finished-product/desktop-find-us.png)|
+|Order Page  |![mobile order](readme-files/finished-product/mobile-order.png)|![tablet order](readme-files/finished-product/tablet-order.png)|![laptop order](readme-files/finished-product/laptop-order.png)|![desktop order](readme-files/finished-product/desktop-order.png)|
 
 ## Credits
 
