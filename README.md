@@ -10,6 +10,15 @@ The deployed site can be found here: [La Patata website](https://jonnlai.github.
 
 ## Table of Contents
 
+1. [User Experience (UX)](#user-experience-ux)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Finished Product](#finished-product)
+7. [Credits](#credits)
+8. [Features not implemented](#features-not-implemented)
+
 ## User Experience (UX)
 
 ### Business Goals
@@ -46,6 +55,8 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 |  Index   |![Mobile Index wireframe](readme-files/wireframes/mobile-index.png)    |![Desktop Index wireframe](readme-files/wireframes/desktop-index.png)    |
 |  Find Us |![Mobile Find Us wireframe](readme-files/wireframes/mobile-find-us.png)|![Desktop Find Us wireframe](readme-files/wireframes/desktop-find-us.png)|
 |  Order   |![Mobile Order wireframe](readme-files/wireframes/mobile-order.png)    |![Desktop Order wireframe](readme-files/wireframes/desktop-order.png)    |
+
+[Back to top](#la-patata)
 
 ## Features
 
@@ -144,6 +155,8 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 * The form uses built-in client-side form validation to ensure that all the required data is submitted in correct format to prevent issues and delays with orders.  
 ![Order form](readme-files/features/order-form.png)
 
+[Back to top](#la-patata)
+
 ## Technologies Used
 
 ### Languages Used
@@ -164,6 +177,8 @@ The main font used is Sanchez, with serif as the fallback font. Dekko was used f
 * [Favicon.io](https://favicon.io/) was used to create the Favicon.
 * [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check the site's responsiveness on different devices.
 * [Am I responsive?](https://ui.dev/amiresponsive) was used to create the mockup image of the landing page on different devices.
+
+[Back to top](#la-patata)
 
 ## Testing
 
@@ -253,6 +268,8 @@ The following bugs were noticed and fixed during the development phase:
 * The body element had *height: 100vh* instead of *min-height: 100vh* which meant the footer did not stick to the bottom as planned. This was fixed by changing it to *min-height: 100vh*. However, this resulted in the hero image disappearing as its height had been set using a percentage. This was fixed by setting the height of the Hero image using *vh* instead.
 * The order form has been set to have max-width to prevent it from getting unnecessarily wide. On screens smaller than 768px, the form had been given a margin of 10px on its left and right sides to prevent it from getting too close to the sides. This looked good on mobile phone screens, but during the development process, it was noticed that this meant that when the screen size got larger than the max-width+20px, the form remained 10px from the left-side. This was fixed by setting the margin of the *form* element to *0 auto* and setting the left and right margin of the *fieldset* element to *10px*.
 
+[Back to top](#la-patata)
+
 ## Deployment
 
 This project was developed using [Codeanywhere](https://codeanywhere.com/) integrated development environment, and the project was deployed to GitHub pages. The project was deployed in the early stages of the development process to allow the developer to test the site on different devices and identify and fix any issues.
@@ -272,6 +289,8 @@ The project was deployed to GitHub pages by taking the following steps:
 5. Open the **Code** tab and refresh your page after a couple of minutes.
 6. Under **Deployment**, select 'github-pages' and click the link under **Active Deployments**.
 
+[Back to top](#la-patata)
+
 ## Finished Product
 
 The project was developed for four screen sizes: mobile (320px to 767px), tablet (768px to 991px), laptop (992px to 1320px), and desktop (>=1320px). The decision to use 1320px as the final breakpoint instead of the standardised breakpoint of 1200px was made based on the design of the index page, especially the layout of the three images and the *How to Enjoy* section.
@@ -281,6 +300,8 @@ The project was developed for four screen sizes: mobile (320px to 767px), tablet
 |Landing Page|![mobile index](readme-files/finished-product/mobile-index.png)|![tablet index](readme-files/finished-product/tablet-index.png)|![laptop index](readme-files/finished-product/laptop-index.png)|![desktop index](readme-files/finished-product/desktop-index.png)|
 |Find Us Page|![mobile find us](readme-files/finished-product/mobile-find-us.png)|![tablet find us](readme-files/finished-product/tablet-find-us.png)|![laptop find us](readme-files/finished-product/laptop-find-us.png)|![desktop find us](readme-files/finished-product/desktop-find-us.png)|
 |Order Page  |![mobile order](readme-files/finished-product/mobile-order.png)|![tablet order](readme-files/finished-product/tablet-order.png)|![laptop order](readme-files/finished-product/laptop-order.png)|![desktop order](readme-files/finished-product/desktop-order.png)|
+
+[Back to top](#la-patata)
 
 ## Credits
 
@@ -320,3 +341,5 @@ The following features were considered during the development of this project, b
 * **404 page** Having an interesting 404 error page could improve user experience in case of any broken links or the user entering the address incorrectly.
 * **Thank you page** User experience could be improved by directing users to a Thank you page once they have submitted their order.
 * **Order form** The order form requires the users to select from a dropdown list their preferred collection location and the day of the week when they would like to collect their order. However, when selecting the date of collection, the users are able to select any date, including those that do not match their selected day of the week. Ways to validate this user input with Javascript could be explored in the future.
+
+[Back to top](#la-patata)
