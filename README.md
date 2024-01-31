@@ -333,6 +333,8 @@ All the content was written by the developer.
 
 * The developer was introduced to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) by her mentor, Marcel Mulders. The use of Conventional Commits was implemented halfway through the project.
 
+[Back to top](#la-patata)
+
 ## Features not implemented
 
 The following features were considered during the development of this project, but it has not been possible to implement them yet.
